@@ -1,4 +1,4 @@
-# isobaric multiplet mass equation
+# Isobaric Multiplet Mass Equation
  Isobaric Multiplet Mass Equation Coefficients
 
 This repository contains isobaric-multiplet-mass-equation coefficients deduced by Yi Hua Lam and collaborators.
