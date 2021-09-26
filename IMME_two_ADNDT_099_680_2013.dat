@@ -1,41 +1,42 @@
-#!/bin/sh
+#!/bin/bash
+# File IMME_1half_ADNDT_099_680_2013.dat
+# Data created on May 17 2012 by LAM Yi Hua
 #
-# We use 3 sources of data:
-# (  i) The latest adopted NNDC online
-# ( ii) J. Britz,* A. PAPE,† and M. S. ANTONY‡, Atomic Data and Nuclear Data Tables 69 (1998) p.125
-# (iii) The most latest published data
+# The IMME coefficients of T=1/2 isobaric multiplets are published at
+# Yi Hua Lam†, Bertram Blank‡, Nadezda A. Smirnova, Jean Bernard Bueb, Maria Susai Antony
+# Atomic Data and Nuclear Data Tables 99 (2013) 680, http://dx.doi.org/10.1016/j.adt.2012.11.002
 #
-# Source ( i): 
-#           Nuclei Mass Excess: 
-#                     http://www.nndc.bnl.gov/masses/mass.mas03
+# Corresponding authors:
+# † lamyihua@impcas.ac.cn (Yi Hua LAM)
+# ‡ blank@cenbg.in2p3.fr (Bertram BLANK)
 #
-#           Adopted Excited levels: 
-#               Evaluated Nuclear Structure Data File (ENSDF)
-#                     Database version of May 9, 2011
-#               Experimental Unevaluated Nuclear Data List (XUNDL)
-#                     Database version of May 16, 2011
-#                     http://www.nndc.bnl.gov/ensdf
+# ORCID:
+# https://orcid.org/0000-0001-6646-0745 (Yi Hua LAM)
+# https://orcid.org/0000-0001-8944-7631 (Nadezda A. SMIRNOVA)
+# (  i) 
+# ( ii) 
 #
-# Source ( ii): 
-#    Atomic Data and Nuclear Data Tables 69 (1998) p.125
-#
-#    J. BRITZ,* A. PAPE,† and M. S. ANTONY‡
-#
-#    Institut de Recherches Subatomiques et Universite´ Louis Pasteur, 67037 Strasbourg Cedex 2, France
-#    Coefficients of the Isobaric Mass Equation and Their Correlations with Various Nuclear Parameters
-#
-# Source (iii): 
-#    
+# Data format in columns:
+# Column numbers      Descriptions
+# 1,2                 Nuclear mass, A
+# 2,3                 Count rate & error (not corrected for PCUs)
+# 4                   Time bin size (s)
+# 5,6,7               nH (frozen in bbfit_fabs.log) and min, max (both zero in bbfit_fabs.log)
+#	8,9,10. kT (keV) and min, max (1 sigma error)
+#	11,12,13. Blackbody normalisation ((R_km/d_10kpc)^2) and min,max
+#	14. Fit reduced chi^2
+#	15. "Raw" flux value (2.5-25 keV, ergs/cm^2/s)
+#	16,17,18. Estimated bolometric flux (1e-9 ergs/cm^2/s) and 
+#		min,max (1 sigma error)
 #    
 #A  2*J      P   Nucl.   2*Tz    Mass Excess (keV)       a, b, c (keV)               a, b, c, d (keV)        a, b, c, e (keV)        a, b, c, d, e (keV)
  8
-     0        +    He      4       31609.6040    0.177       32433.967765041928942     1.730451001165829       32435.195235524930467     1.756853674206379       32435.770999999687774     1.800340245620016       32435.771000000000640     1.800340245619736
-                   Li      2       31767.9970    5.500        -877.577116665498920     3.899491654357845        -897.714461168985849     6.323535874421605        -878.016833103539511     3.901372618124040        -892.316166666671052     7.320208581293191
-                   Be      0       32435.7710    1.800         232.695613320788766     2.001204053028169         225.738514093791395     2.638681462419655         208.780777232560865     6.885281404608834         215.500000000004235     7.475170933225064
-                   B      -2       33540.5770    9.055           0.000000000000000                                 8.360337862683195     2.066720098840106           0.000000000000000                                 6.026166666667905     2.610306480781853
-                   C      -4       35082.4500   23.068                                                             0.000000000000000                                 5.921328017491781     1.631202939200911           3.015999999998790     2.060240090597372
+     0       +    He      4       31609.6040    0.177       32433.967765041928942     1.730451001165829       32435.195235524930467     1.756853674206379       32435.770999999687774     1.800340245620016       32435.771000000000640     1.800340245619736
+                  Li      2       31767.9970    5.500        -877.577116665498920     3.899491654357845        -897.714461168985849     6.323535874421605        -878.016833103539511     3.901372618124040        -892.316166666671052     7.320208581293191
+                  Be      0       32435.7710    1.800         232.695613320788766     2.001204053028169         225.738514093791395     2.638681462419655         208.780777232560865     6.885281404608834         215.500000000004235     7.475170933225064
+                  B      -2       33540.5770    9.055           0.000000000000000                                 8.360337862683195     2.066720098840106           0.000000000000000                                 6.026166666667905     2.610306480781853
+                  C      -4       35082.4500   23.068                                                             0.000000000000000                                 5.921328017491781     1.631202939200911           3.015999999998790     2.060240090597372
                                                                                                                    0.000000000000000                                 0.000000000000000
- 
  
 20
      0        +    O       4        3796.1680    0.885        9692.517901070783410     2.258662966161551        9691.367697282441441     2.551277450984764        9690.969389999625491     2.700000456462784        9690.969390000002022     2.700000456463385
