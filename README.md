@@ -1,6 +1,6 @@
 # Isobaric Multiplet Mass Equation
  
-![Isobaric multiplet Logo](/image/Model_Space_pSDpf_modified.png)
+![Isobaric multiplet Logo](https://github.com/lamyihua/isobaric-multiplet-mass-equation/blob/main/Model_Space_pSDpf_modified.png)
 
 Isobaric Multiplet Mass Equation Coefficients
 
