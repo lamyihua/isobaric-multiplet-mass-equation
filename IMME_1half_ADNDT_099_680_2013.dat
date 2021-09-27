@@ -5,6 +5,8 @@
 # The IMME coefficients of T=1/2 isobaric multiplets are published at
 # Yi Hua Lam†, Bertram Blank‡, Nadezda A. Smirnova, Jean Bernard Bueb, Maria Susai Antony
 # Atomic Data and Nuclear Data Tables 99 (2013) 680, http://dx.doi.org/10.1016/j.adt.2012.11.002
+# 
+# https://arxiv.org/XXXX.YYYY
 #
 # Corresponding authors:
 # † lamyihua@impcas.ac.cn (Yi Hua LAM)
@@ -13,22 +15,9 @@
 # ORCID:
 # https://orcid.org/0000-0001-6646-0745 (Yi Hua LAM)
 # https://orcid.org/0000-0001-8944-7631 (Nadezda A. SMIRNOVA)
-# (  i) 
-# ( ii) 
 #
-# Data format in columns:
-# Column numbers      Descriptions
-# 1,2                 Nuclear mass, A
-# 2,3                 Count rate & error (not corrected for PCUs)
-# 4                   Time bin size (s)
-# 5,6,7               nH (frozen in bbfit_fabs.log) and min, max (both zero in bbfit_fabs.log)
-#	8,9,10. kT (keV) and min, max (1 sigma error)
-#	11,12,13. Blackbody normalisation ((R_km/d_10kpc)^2) and min,max
-#	14. Fit reduced chi^2
-#	15. "Raw" flux value (2.5-25 keV, ergs/cm^2/s)
-#	16,17,18. Estimated bolometric flux (1e-9 ergs/cm^2/s) and 
-#		min,max (1 sigma error)
-#    
+# See Atomic Data and Nuclear Data Tables 99 (2013) 680, or https://arxiv.org/XXXX.YYYY, Explanation of Tables, for data notations
+# 
 #A  2*J P    Nucl. Tz   Mass Excess (keV) +/- (keV)     Nucl. Tz  Mass Excess (keV) +/- (keV)    Ex (keV)    a (keV)     +/- (keV)                              b (keV)   +/- (keV)
  1   1  +     n           8071.31728      0.00046        H          7288.97064      0.00010          0         7680.14396              0.00024                  782.34664              0.00047          
  3   1  +     H          14949.8062       0.0022        He         14931.2156       0.0023           0        14940.5109               0.0016                    18.5906               0.0032           
