@@ -18,7 +18,7 @@
 #
 # See Atomic Data and Nuclear Data Tables 99 (2013) 680, or https://arxiv.org/XXXX.YYYY, Explanation of Tables, for data notations
 #    
-#A  2*J  P   Nucl.  2*Tz  Mass Excess (keV) +/- (keV)   a, b, c (keV) +/- (keV)   a, b, c, d (keV) +/- (keV)   a, b, c, e (keV) +/- (keV)   a, b, c, d, e (keV) +/- (keV)
+#A  2J   P   Nucl.   2Tz  Mass Excess (keV) +/- (keV)   a, b, c (keV) +/- (keV)   a, b, c, d (keV) +/- (keV)   a, b, c, e (keV) +/- (keV)   a, b, c, d, e (keV) +/- (keV)
  8
      0   +    He      4    31609.60         0.18         32434.0      1.7          32435.2         1.8          32435.8     1.8              32435.8     1.8
               Li      2    31768.0          5.5           -877.6      3.9           -897.7         6.3           -878.0     6.3               -892.3     7.3
